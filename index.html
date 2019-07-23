@@ -1,1 +1,62 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- the MAIN.CSS file is linked here -->
+  </head>
+
+  <body>
+    <h1 class='textbox'>Numbers for the Number God</h1>
+    <div id='speech' class='textbox'>
+      <p>
+        Ah, yes mortal. I remember when I too did not know all that is past, present, and future. 
+        The excitement! The thrill of the unknown! Surely this is why you, but a humble ant when compared 
+        to my splendor, have sought me out. For though you, foolish mortal, do not know the number, 
+        <strong>I do</strong>. Therefore, look upon my website and tremble. Through the arcane magic of basic HTML, 
+        CSS, and JavaScript, I have wrought it. Behold how it tells you whether your guesses are hot or cold! 
+        Behold it's tasteful styling! Behold how it crashes only intermittantly! 
+        If ye be brave indeed, enter your guess:
+      </p>
+    </div>
+    <div id='guessList' class='textbox'>
+      <div id='guess1'>__</div>
+      <div id='guess2'>__</div>
+      <div id='guess3'>__</div>
+      <div id='guess4'>__</div>
+      <div id='guess5'>__</div>
+    </div>
+    <h3 id='message' class='textbox'>The Number is between 1 and 100</h3>
+
+
+    <div>
+      <input placeholder='Enter Your Guess, Mortal!' id='guess' autofocus>
+      <br>
+      <br>
+      <button id='submit'>Submit Guess</button>
+      <br>
+      <button id='restart'>Play Again</button>
+      <br>
+      <button id='hint'>Receive a Hint for Your Tiny Brain</button>
+      <br>
+      <button id='surrender'>Surrender to the Number God</button>
+
+    </div>
+    <br>
+    <br>
+    <div id='footnote' class='textbox'>
+      Background photo: Eberhard Grossgasteiger
+      <br>
+      Steel texture: KJ Pargeter
+    </div>
+
+
+
+
+    <script src='js/guessing-game.js'></script>
+    <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
+  </body>
+
+</html>

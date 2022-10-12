@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/FullstackAcademy/guessing-game#readme",
   "devDependencies": {
-    "testem": "^2.14.0"
+    "testem": "^3.9.0"
   }
 }
